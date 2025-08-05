@@ -297,7 +297,7 @@ const CrearPerfil = () => {
                           <SelectItem value="menos-1">Menos de 1 año</SelectItem>
                           <SelectItem value="1-2">1-2 años</SelectItem>
                           <SelectItem value="2-5">2-5 años</SelectItem>
-                          <SelectItem value="5+">Más de 5 años</SelectItem>
+                          <SelectItem value="5-mas">Más de 5 años</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
