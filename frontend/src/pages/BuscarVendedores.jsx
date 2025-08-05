@@ -46,7 +46,7 @@ const BuscarVendedores = () => {
         );
       }
       
-      if (selectedCategory) {
+      if (selectedCategory && selectedCategory !== 'all') {
         filteredResults = filteredResults.filter(vendedor =>
           vendedor.negocio.toLowerCase().includes(selectedCategory.toLowerCase())
         );
