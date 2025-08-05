@@ -115,7 +115,7 @@ const BuscarVendedores = () => {
                       <SelectValue placeholder="Seleccionar categoría" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">Todas las categorías</SelectItem>
+                      <SelectItem value="all">Todas las categorías</SelectItem>
                       {mockCategorias.map((categoria) => (
                         <SelectItem key={categoria} value={categoria}>
                           {categoria}
